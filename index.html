@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title> D3 Tutorial </title>
+    <!-- <script type="text/javascript" src="d3.v2.min.js"></script> -->
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      // **************** Test Graph ****************
+      var test = d3.select("body").data(['Nyapal', 'Faith', 'Ebonne']);
+      test.enter().append("p").append("test").text(function(d)
+      {
+        return "Group Members: " + d;
+      });
+
+      // *******************************
+    </script>
+  </head>
+  <body>
+    
+  </body>
+</html>
